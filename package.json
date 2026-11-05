@@ -1,0 +1,29 @@
+{
+  "name": "care500",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx scripts/seed.ts",
+    "db:studio": "drizzle-kit studio",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "@vercel/node": "^5.3.21",
+    "argon2": "^0.44.0",
+    "drizzle-orm": "^0.44.5",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "dotenv": "^16.6.1",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vercel": "^48.1.0"
+  }
+}
