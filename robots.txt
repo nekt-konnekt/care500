@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Temporary: the homepage contains prototype/example figures and sample cases.
+# Remove the noindex directive from the HTML only after all public claims are verified.
+
+Sitemap: https://care500.vercel.app/sitemap.xml
