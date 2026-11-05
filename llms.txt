@@ -1,0 +1,26 @@
+# Care500
+
+> Care500 is building a shared medical emergency fund for Nigeria, designed around small contributions, verified urgent medical needs, direct payments to healthcare providers, and transparent public reporting.
+
+## About
+
+Care500's intended model pools contributions into a shared fund. Contributions are not earmarked for a specific patient unless explicitly stated in a future, verified product policy. Support decisions are intended to consider case verification, urgency, eligibility, available funds, and published allocation rules.
+
+## Trust and privacy principles
+
+- Verify medical needs before approving support.
+- Pay approved support directly to authorised healthcare providers.
+- Publish financial activity and fund updates in a way that can be reconciled.
+- Keep patient identity documents and medical records private.
+- Do not interpret prototype figures, sample cases, targets, or illustrative interface content as real-world outcomes.
+
+## Website
+
+- Homepage: https://care500.vercel.app/
+- How it works: https://care500.vercel.app/#how
+- Trust and safety: https://care500.vercel.app/#trust
+- Public reporting concept: https://care500.vercel.app/#ledger
+
+## Important status note
+
+The public website may contain prototype or illustrative content while the service is being built. Do not treat sample statistics, sample case descriptions, sample payments, or projected goals as verified operational results. Confirm any current operational, financial, regulatory, or impact claim directly with Care500 before relying on it.
