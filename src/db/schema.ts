@@ -82,7 +82,7 @@ export const cases = pgTable("cases", {
   publicSummary: text("public_summary"),
   createdAt: createdAt(),
   decidedAt: timestamp("decided_at", { withTimezone: true }),
-  decidedBy: uuid("decided_by"),
+  decidedBy: uuid("decided_by").references(() => adminUsers.id, { onDelete: "set null" }),
 }, t => [
   uniqueIndex("cases_public_ref_uq").on(t.publicRef),
   index("cases_status_created_idx").on(t.status, t.createdAt),
